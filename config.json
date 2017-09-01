@@ -1,0 +1,17 @@
+{
+  "self": {
+    "type": {
+      "id": "071008000000",
+      "name": "notification",
+      "icon": ""
+    },
+    "module": "./lib/notification/me-notification",
+    "uuid": "eb54d9c6-c6c3-4194-8f1f-8d7749f3f689",
+    "token": "ff48715d07c88daf91a78ec74cff0893ab77d29f",
+    "zkPath": "/system/services/notification/cluster/eb54d9c6-c6c3-4194-8f1f-8d7749f3f689"
+  },
+  "zookeeper": {
+    "host": "115.28.241.149",
+    "port": 2181
+  }
+}
