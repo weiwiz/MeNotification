@@ -5,13 +5,16 @@
       "name": "notification",
       "icon": ""
     },
-    "module": "./lib/notification/me-notification",
-    "uuid": "eb54d9c6-c6c3-4194-8f1f-8d7749f3f689",
-    "token": "ff48715d07c88daf91a78ec74cff0893ab77d29f",
-    "zkPath": "/system/services/notification/cluster/eb54d9c6-c6c3-4194-8f1f-8d7749f3f689"
+    "module": "./lib/notification/me-notification"
   },
   "zookeeper": {
-    "host": "115.28.241.149",
+    "host": "tech-artisan.net",
     "port": 2181
+  },
+  "meshblu_server": {
+    "db_url": "mongodb://root:wzh83573100@127.0.0.1:27017/admin",
+    "host": "127.0.0.1",
+    "port": 6565,
+    "message_timeout": 30
   }
 }
